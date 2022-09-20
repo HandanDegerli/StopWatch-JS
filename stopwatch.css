@@ -1,0 +1,33 @@
+.timerBtn{/*class olduğu için . kullandık*/
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+  
+     transform: translateX(100%);
+    color: white;
+    cursor: pointer;
+    font-family: consolas, 'Courier New', Courier, monospace;
+}
+
+#timeDisplay{/*ID olduğu için # kullandık*/
+     font-size: 80px;
+     color: #40c437; 
+     transform: translateX(10px);
+     font-family: consolas, 'Courier New', Courier, monospace;
+}
+
+#timeContainer{
+    position: relative;
+    border: 7px solid;
+    outline: 7px solid black;
+    outline-offset: 0px;
+    -moz-outline-radius: 17px;
+    background-color: black;
+	border-color: #40c437;
+	border-radius: 17px;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+}
